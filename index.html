@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather ⛅</title>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <h1> Today's Weather</h1>  
+       <form class="search-form" id="search-form"</form> 
+              <h2 id="city">
+                  Colorado
+								</h2>
+              <div>
+          <p>Monday 🌤</p>
+              
+					<ul
+							<span class="time"> Now: <em> Partially Cloudy </em></span>
+					<span class="temperature" id="temperature"><h3>16</h3></span> 
+					<span class="units">
+							<a href="#" id="celsius-link">°C</a> |
+							<a href="#" id="fahrenheit-link">°F</a>
+						</span>
+          </br>
+        </br>
+          <ul>
+            <li>
+           Wind: <em> 2.81km/h </em>
+            </li>
+          </br>
+            <li>
+            Humidity: <em> 70% </em>
+            </li>
+          </br>
+            <li>
+              Precipitation: <em> No Rain </em>
+            </li>
+        </ul>
+			</ul>
+    </br>
+  </div>
+
+
+
+  <div class="box">
+    <form class="search" action="action_page.php">
+			<input type="text" placeholder="Search Your city..." id="city-input"/>
+      <button type="submit"><i class="btn" value="search"></i></button>
+    </form>
+  </div>
+  </br>
+</br>
+<hr>
+    <small>
+      <a href="https://github.com/Cindycodes4/githubwk8" target="_blank">Open-source code</a> on GitHub, This project was coded by Cindy Saldivar and 
+      <a href="https://jolly-poincare-ea85ee.netlify.app" target="_blank">hosted on Netlify</a>
+    </small>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
